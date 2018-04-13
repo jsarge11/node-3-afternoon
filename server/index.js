@@ -18,7 +18,6 @@ app.use(session({
  secret: process.env.SECRET_SESSION
 }))
 
-// there must be a better way
 app.use(check)
 
 

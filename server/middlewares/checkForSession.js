@@ -1,6 +1,5 @@
 module.exports = {
  check: (req, res, next) => {
-  console.log('running');
 
   if (!req.session.user) {
    req.session.user = {
